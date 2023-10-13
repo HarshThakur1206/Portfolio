@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/21b213cd40.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+                <nav>
+                <h1><span>H</span>arsh.</h1>
+                <!-- <img src="images/logo.png" alt="" class="logo"> -->
+                <ul id="sidemenu">
+                    <li><a href="#header" onclick="closemenu()">Home</a></li>
+                    <li><a href="#about" onclick="closemenu()">About</a></li>
+                    <li><a href="#services" onclick="closemenu()">Services</a></li>
+                    <li><a href="#portfolio" onclick="closemenu()">Portfolio</a></li>
+                    <li><a href="#contact" onclick="closemenu()">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                    <!-- <i class="fas fa-solid fa-xmark"></i> -->
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web/Software Developer</p>
+                <h1>Hi, I'm <span>Harsh</span><br> From India</h1>
+            </div>
+        </div>
+    </div>
+<!-- --------------------about------------------- -->
+ 
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/WhatsApp Image 2023-01-22 at 7.07.07 PM.jpeg" alt="">
+                    <!-- <img src="./images/user.png" alt=""> -->
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>An independent and self-motivated graduate looking for an entry-level 
+                        position where I can utilize the extensive knowledge and skills
+                        I have gained during my courses. Seeking to become an expert as a 
+                        WEB/Software developer.</p>
+
+                       <div class="tab-titles">
+                        <p class="tab-links skills active-link">Skills</p>
+                        <p class="tab-links education">Education</p>
+                        <p class="tab-links experience">Experience</p>
+                       </div>
+                       <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>BOOTSTRAP</li>
+                            <li>JAVASCRIPT</li>
+                            <li>REACT</li>
+                            <li>NodeJS</li>
+                            <li>EXPRESS JS</li>
+                            <li>MONGODB</li>
+                            <li>CORE JAVA</li>
+                            <li>SQL</li>
+                        </ul>
+                       </div>
+
+                       <div class="tab-contents" id="education">
+                        <ul>
+                            <li>JSpiders- Perssuing Java full Stack course</li>
+                            <li>B.com in COMPUTER APPLICATION | 8.24CGPA | 2019-22</li>
+                            <li>12<sup>th</sup> - UDAY PUBLIC SCHOOL | 6.2CGPA | 2018-19</li>
+                            <li>10<sup>th</sup> - UDAY PUBLIC SCHOOL | 8.2CGPA | 2016-17 </li>
+                        </ul>
+                       </div>
+
+                       <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>Fresher</li>
+                            <li>Graduated in 2022</li>
+                        </ul>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ------------------Services-------------------------- -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Front-end development</h2>
+                <p>
+                    As a frontend developer, I specialize in crafting engaging and user-centric web experiences. Leveraging my expertise in HTML, CSS,
+                    and JavaScript, I create seamless and visually appealing interfaces that captivate users from the moment they land on a website.
+                    With a keen eye for design and a focus on responsiveness, I ensure that websites not only look stunning on all devices but also
+                    provide intuitive and enjoyable navigation. Whether it's designing interactive elements, optimizing performance, or collaborating
+                    closely with designers and backend developers, I am dedicated to delivering front-end solutions that elevate brands and leave a
+                    lasting impression on users.
+                </p>   
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Back-end development</h2>
+                <p>
+                    As a backend developer, I specialize in building the robust and efficient foundations that power seamless web applications.
+                    Proficient in languages such as Node.js(with MongoDB) and Java(SQL DataBase), I design and implement the server-side logic that drives functionality,
+                     data management, and user interactions. From developing RESTful APIs and integrating third-party services to optimizing 
+                     database performance and ensuring data security, my focus is on creating scalable and reliable backend systems. 
+                     I thrive on solving complex challenges, collaborating with frontend teams, and continuously refining and enhancing the 
+                     technical architecture to support the dynamic needs of modern web applications.
+                </p>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Database developement</h2>
+                <p>
+                    As a database specialist, I excel in designing and managing the data ecosystems that drive the heart of web applications.
+                     With expertise in SQL and NoSQL databases such as MySQL, PostgreSQL, MongoDB, and more, I am adept at crafting efficient
+                      database structures that ensure seamless data storage, retrieval, and manipulation. From schema design and data
+                       normalization to implementing advanced querying and indexing strategies, I am dedicated to optimizing performance 
+                       and ensuring data integrity. My focus on scalability, security, and maintaining data consistency enables me to contribute
+                        to the development of robust and reliable applications. Whether it's structuring complex data relationships or 
+                        streamlining data access for applications.                </p>
+            
+                </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------Portfolio------------------- -->
+
+<div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Projects</h1>  
+      <div class="work-list">
+
+        <div class="work">
+            <img src="images/work-1.png" alt="">
+            <!-- <img src="images/forkify-img2.png" alt=""> -->
+            <div class="layer">
+                <h3>Forkify</h3>
+                <p>Recipe search engine that considers user's dietary preferences and available ingredients.</p>
+                  <a href="https://forkify-harsh12062002.netlify.app"><i class="fa-solid fa-arrow-up-right-from-square"><div id="clickMe">Click Me</div></i></a>
+            </div>
+            <div class="projectName">Forkify</div>
+        </div>
+        
+
+        <div class="work">
+            <img src="images/work-2.png" alt="">
+            <div class="layer">
+                <h3>Mapty</h3>
+                <p>Mapty a web based application, that lets users to effortlessly log and track their ftness progress.</p>
+                  <a href="https://mapty-harsh.netlify.app"><i class="fa-solid fa-arrow-up-right-from-square"><div id="clickMe">Click Me</div></i></a>
+            </div>
+            <div class="projectName">Mapty</div>
+        </div>
+
+
+        <div class="work">
+            <img src="images/work-1.png" alt="">
+            <div class="layer">
+                <h3>Banking Homepage</h3>
+                <p>Designed and developed a custom homepage for a bank</p>
+                  <a href="https://bankinghomepage.netlify.app"><i class="fa-solid fa-arrow-up-right-from-square"><div id="clickMe">Click Me</div></i></a>
+            </div>
+            <div class="projectName">Banking Homepage</div>
+        </div>
+
+        <div class="work">
+            <img src="images/work-3.png" alt="">
+            <div class="layer">
+                <h3>React CRUD App</h3>
+                <p>Developed a functional and visually appealing CRUD (Create, Read, Update, Delete) application using React</p>
+                  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"><div id="clickMe">Click Me</div></i></a>
+            </div>
+            <div class="projectName">React CRUD App</div>
+        </div>
+      
+    </div>
+    </div>
+</div>
+
+
+<!-- -----------------Contact ------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <!-- <br> -->
+                <p><i class="fas fa-paper-plane"></i> thakurharsh201@gmail.com</p>
+                <!-- <br> -->
+                <p><i class="fa-solid fa-phone"></i> 934015655</p>
+                <div class="social-icons">
+                    <!-- <a href=""><i class="fa-brands fa-facebook"></i></a> -->
+                    <a href="https://www.instagram.com/son_of_beena_thakur/?next=%2F"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/harsh-thakur-361643210/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/HarshThakur1206"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <!-- <button class="btn btn2">Download CV</button> -->
+            <a href="images/HARSH12.pdf" download="" class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form action="https://formspree.io/f/xwkjaqdj" method="POST">
+                <input type="text" name="name" placeholder="Your name" id="" autocomplete="off" required>
+                <input type="email" name="email" placeholder="Your email" id="" autocomplete="off" required>
+                <input type="text" name="subject" placeholder="Subject" id="" autocomplete="off" required>
+                <textarea name="message" rows="6" placeholder="Your Message" id="textArea" cols="30" rows="10" required autocomplete="off"></textarea>
+                <button class="btn btn2" id="submitButton" type="submit" >Submit</button>
+            </form>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+<script src="./script.js"></script>
+
+</body>
+</html>
